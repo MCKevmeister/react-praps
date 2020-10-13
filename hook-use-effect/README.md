@@ -8,6 +8,7 @@ The purpose of this hook is to run the defined function after rendering or when 
 
 It adds the ability to perform side effects from a function component. It serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount in React classes, but unified into a single API.
 
+```
 import React, {useState, useEffect} from 'react';
 function App() {
     //Define State
@@ -29,3 +30,4 @@ function App() {
     );
 };
 export default App
+```
