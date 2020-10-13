@@ -17,5 +17,7 @@ function App() {
       <h3>Surname: {name.surname}</h3>
     </div>
   );
+  
 }
 export default App;
+
