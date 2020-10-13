@@ -7,7 +7,7 @@ function App() {
     //Call the use effect hook
     useEffect(() => {
       setName({firstName: 'Prapti', surname: 'Mane'})
-      setTitle({'My Full Name'}) //Set Title
+      setTitle(['My Full Name']) //Set Title
     }, [])// pass in an empty array as a second argument
     
     return(
